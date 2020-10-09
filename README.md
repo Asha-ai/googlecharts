@@ -15,3 +15,6 @@ and many more ...
 
 ##### Ref links
 https://developers.google.com/chart/interactive/docs/gallery/barchart
+##### Data Queries
+https://developers.google.com/chart/interactive/docs/queries
+
