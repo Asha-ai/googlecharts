@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Interactive Google Chart Example</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+</head>
+
+<body>
+    <p>Make changes in the code and see how this graph reacts!</p>
+
+    <div id="b_sale" style="width:500px; height:300px;"></div>  
+</body>
+
+<script>
+    // VISUALIZATION API AND THE PIE CHART PACKAGE.
+    google.load("visualization", "1", { packages: ["corechart"] });
+    google.setOnLoadCallback(createPIE);
+
+    function createPIE() {
+        var options = {
+            title: 'Montly sale of Books'
+        };
+
+        // CREATE A DataTable AND ADD DATA TO IT.
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Sales Figure'],
+          ['JAN', 21],
+          ['FEB', 32],
+          ['MAR', 19],
+          ['APR', 8],
+          ['MAY', 26],
+          ['JUN', 31],
+          ['JUL', 37],
+          ['AUG', 16],
+          ['SEP', 25],
+          ['OCT', 30],
+        ]);
+
+        // THE TYPE OF CHART (PieChart IN THIS EXAMPLE).
+        var chart = new google.visualization.PieChart(document.getElementById('b_sale'));
+        chart.draw(data, options);      // DRAW GRAPH WITH DATA AND OPTIONS.
+    }  
+</script>  
+</html>
