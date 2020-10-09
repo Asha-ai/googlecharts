@@ -17,4 +17,6 @@ and many more ...
 https://developers.google.com/chart/interactive/docs/gallery/barchart
 ##### Data Queries
 https://developers.google.com/chart/interactive/docs/queries
+## Standard Visualization Methods and Properties 
+https://developers.google.com/chart/interactive/docs/reference
 
