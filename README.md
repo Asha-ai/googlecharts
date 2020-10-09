@@ -12,3 +12,6 @@ Google Charts are best for those who want basic and simple graphs without wastin
 #### supports dynamic data  can extract data from any database and from google sheets and cloud databases
 #### possible to draw 3D-charts
 and many more ...
+
+##### Ref links
+https://developers.google.com/chart/interactive/docs/gallery/barchart
