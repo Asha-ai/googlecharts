@@ -13,6 +13,9 @@ Google Charts are best for those who want basic and simple graphs without wastin
 #### possible to draw 3D-charts
 and many more ...
 
+## About charts
+##### Time Line Chart -schedule meeting rooms, a timeline is often a reasonable visualization choice. One popular type of timeline is the Gantt chart.
+
 ##### Ref links
 https://developers.google.com/chart/interactive/docs/gallery/barchart
 ##### Data Queries
